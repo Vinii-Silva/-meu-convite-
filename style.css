@@ -1,0 +1,44 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  button {
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  #sim {
+    background-color: rgb(98, 0, 128); /* Dark purple */
+    color: white;
+  }
+  
+  #nao {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  /* Animation for hover effect on "Não" button */
+  #nao:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Animation for click effect on "Não" button */
+  #nao:active {
+    transform: rotate(5deg);
+  }
